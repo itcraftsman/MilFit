@@ -1,0 +1,27 @@
+<nav id="nav-bar" class="navbar navbar-default" role="navigation">
+    <div class="brand">
+        <button type="button" id="nav-btn" class="btn btn-default navbar-btn pull-left" onclick="load('content/fittest/fittest.html');">Zur&uuml;ck</button>
+        <h4 id="nav-title">Fitness Test</h4>
+        <button type="button" id="nav-btn" class="btn btn-default navbar-btn pull-right">Sign in</button>
+    </div>
+</nav>
+<div class="container">
+    <h3 id="header">BFT</h3>
+    <h4>Basic Fitness Test</h4>
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading bold">Ausführung</div>
+            <div class="panel-body">
+                <p>F&uuml;hre die drei &Uuml;bungen in dieser Reihenfolge nacheinander aus.<br />
+                Du hast insgesamt zwei Stunden Zeit alle &Uuml;bungen auszuf&uuml;hren.</p>
+            </div>
+
+        <!-- List group -->
+        <ul class="list-group text-center bold">
+            <li class="list-group-item">Pendellauf</li> 
+            <li class="list-group-item">Klimmhang</li>
+            <li class="list-group-item">1000m Lauf</li>
+        </ul>
+    </div>
+    <btn class="btn btn-success btn-lg full" onclick="load('content/timer.html', 'Marsch - 6 km', 60);">Test starten</btn>
+</div>
